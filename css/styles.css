@@ -1,5 +1,5 @@
-/*Variables*/
 /*Partials totales */
+/*Variables*/
 .header {
   font-size: 1.29rem; }
 
@@ -101,7 +101,7 @@
 /*Estilos - Hero Section*/
 /*Uso ded mixis*/
 .hero {
-  height: 70vh;
+  height: 72vh;
   background-image: url("../assets/resources/fondo_hero.jpg");
   background-position: bottom;
   background-size: cover;
@@ -182,3 +182,64 @@ body {
 
 .github--logo {
   background-color: #333333; }
+
+/*Boton flotante para wsp*/
+.float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 50px;
+  right: 60px;
+  background-color: #E3BC91;
+  color: #FFF;
+  border-radius: 50px;
+  padding-top: 2px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100; }
+
+.float:hover {
+  text-decoration: none;
+  color: brown;
+  background-color: #fff; }
+
+.my-float {
+  margin-top: 16px; }
+
+/*Blog*/
+.blog__body {
+  position: relative;
+  z-index: 2;
+  background-color: white; }
+
+.container__about {
+  position: relative;
+  background-color: white; }
+
+.texto__about {
+  text-align: justify; }
+
+.album__alfajores {
+  overflow: hidden; }
+
+.container__spotify {
+  overflow: hidden; }
+
+.album__instagram {
+  overflow: hidden; }
+
+/*Contacto*/
+.contacto {
+  position: relative;
+  z-index: 2;
+  /*Para ordenar div - suerponer uno por otro */
+  background-color: white; }
+
+.titulo__contacto {
+  position: relative;
+  text-align: center; }
+
+.column {
+  float: left;
+  width: 80%; }
